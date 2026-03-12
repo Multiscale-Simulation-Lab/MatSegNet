@@ -1,0 +1,11 @@
+Name of Images: 0.43-6000X_015 , Shape of Images:y and x dimension: 2946 3413
+Name of Images: 0.43-6000X_021 , Shape of Images:y and x dimension: 2946 3413
+Name of Images: 0.45-10000X_017 , Shape of Images:y and x dimension: 1768 2048
+Name of Images: 0.45-5000X_022 , Shape of Images:y and x dimension: 3536 4096
+Name of Images: 0.48-10000X_014 , Shape of Images:y and x dimension: 1768 2048
+Name of Images: 0.48-10000X_020 , Shape of Images:y and x dimension: 1768 2048
+Name of Images: 0.48-15000X_013 , Shape of Images:y and x dimension: 1178 1365
+Name of Images: 0.48-20000X_012 , Shape of Images:y and x dimension: 884 1024
+Name of Images: 0.48-6000X_016 , Shape of Images:y and x dimension: 2946 3413
+Name of Images: 0.5-15000X_018 , Shape of Images:y and x dimension: 1178 1365
+Name of Images: 0.5-15000X_019 , Shape of Images:y and x dimension: 1178 1365

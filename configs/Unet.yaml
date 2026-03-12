@@ -1,0 +1,48 @@
+model_name: 'Unet'
+num_classes: 1
+
+train:
+  learning_rate: 0.0001  
+  dropout_rate: 0.2
+  batch_size: 8        
+  num_epochs: 50
+  weight_decay: 0.0001
+  loss_fn:
+    name: "DiceLoss"
+    params: 
+      mode: 'binary'
+  optimizer: 
+    name: "Adam"
+    params: {}
+
+data:
+  img_height: 512
+  img_width: 512
+
+two_stage_training:
+  enable: true        
+  epochs_stage1: 30
+  epochs_stage2: 5 
+  lr_stage1: 0.0001      
+  lr_stage2: 0.00001   
+  
+paths:
+  accuracy_result_name: "Unet_qualitative_results"
+  latest_checkpoint_path: "unet_resnet34.pth"
+  best_checkpoint_path: "best_unet_resnet34.pth"
+  carbide_morphology_path: "Carbide_morphologies"
+  
+post_processing:
+  tile_height: 512
+  tile_width: 512
+  lower_bound_color: [210, 210, 0]
+  upper_bound_color: [255, 255, 80]
+  nm_per_pixel_base_mag: 61.8
+  min_precipitate_pixel_area: 30
+  excluded_magnification: 2500
+  figure_dpi: 600
+  contour_area_min: 50
+  contour_area_max: 10000000
+  box_color_bgr: [106, 106, 255]
+  total_area_lb: 4.547  # this value has the unit of 1000 micro meter squared
+  total_area_tm: 2.369  # this value has the unit of 1000 micro meter squared

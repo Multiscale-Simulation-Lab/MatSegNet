@@ -1,0 +1,11 @@
+numpy==2.0.2 
+albumentations==2.0.8
+matplotlib==3.10.5
+opencv-python-headless==4.10.0.84
+Pillow==11.3.0
+PyYAML==6.0.2
+scikit-learn==1.0.2
+torch==2.5.1+cu121 #2.6.0
+torchvision==0.20.1+cu121
+tqdm==4.66.5
+transformers==4.55.0

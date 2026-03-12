@@ -1,0 +1,10 @@
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.bmp
+*.gif
+output/
+__pycache__/
+inference/
