@@ -35,8 +35,6 @@ This pipeline includes the following models:
         1.  `final_mask`: Predicts the primary segmentation mask of the objects (e.g., precipitates).
         2.  `final_edge`: Predicts the boundaries or edges of these objects
 
-    *   **Code Implementation**: The architecture is implemented in PyTorch. The `MatSegNet` class combines the ResNet-34 encoder blocks (`enc1` through `enc5`) with custom `DecoderBlock` and `AttentionBlock` modules to build the complete network. The `forward` method explicitly shows the flow of data through the encoder, attention-gated skip connections, decoder, and finally to the two output heads.
-
 ## 4. Pipeline Workflow
 
 
@@ -45,7 +43,7 @@ This pipeline includes the following models:
     *   **Dataset Splitting**: Patches are automatically sorted into `training`, `validation`, and `test` directories with a specified ratio (e.g., 70/15/15).
 
 2.  **Model Training**
-    *   The UNet, SegFormer, and MatSegNet models are trained using the `training` and `validation` sets.
+    *   The FPN, UNet, SegFormer, and MatSegNet models are trained using the `training` and `validation` sets.
     *   Training Script: `/scripts/train.py`
     *   Usage: `python /scripts/train.py --model unet/segformer/matsegnet`
 
