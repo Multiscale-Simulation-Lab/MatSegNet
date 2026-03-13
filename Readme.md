@@ -8,7 +8,7 @@ In our experiments, the MatSegNet model demonstrated superior performance.
 
 ## 2. Key Features
 
-*   **Multi-Model Support**: Integrates three powerful segmentation models: UNet, SegFormer, and MatSegNet.
+*   **Multi-Model Support**: Integrates four powerful segmentation models: FPN, UNet, SegFormer, and MatSegNet.
 *   **End-to-End Workflow**: Offers a complete solution from raw images to final quantitative analysis.
 *   **Automated Data Preparation**: Includes scripts for automated image cropping and splitting into training, validation, and test sets.
 *   **Advanced Post-processing**: Supports prediction on tiled images, merging them back to their original size, and creating visual comparisons with the source images.
@@ -17,6 +17,7 @@ In our experiments, the MatSegNet model demonstrated superior performance.
 ## 3. Model Architectures
 
 This pipeline includes the following models:
+*   **FPN**: A neural network architecture that builds multi-scale feature representations by combining high-level semantic features with low-level spatial features
 
 *   **UNet**: A classic and widely-used convolutional neural network with an encoder-decoder architecture, well-suited for biomedical and materials science image segmentation.
 
