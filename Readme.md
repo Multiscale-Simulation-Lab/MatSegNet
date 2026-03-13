@@ -27,9 +27,9 @@ This pipeline includes the following models:
 
     *   **Architecture**: MatSegNet is an encoder-decoder network designed for precise semantic segmentation.
 
-    *   **Encoder Backbone**: It uses a pre-trained **ResNet-34** model as its feature extractor. By leveraging the weights from a model trained on a large-scale dataset (like ImageNet), the encoder can extract a rich hierarchy of robust features from the input images, which is crucial for distinguishing complex structures.
+    *   **Encoder Backbone**: It uses a pre-trained **ResNet-34** model as its feature extractor. 
 
-    *   **Attention-Gated Decoder**: The decoder path implements a key innovation: **Attention Gates** (`AttentionBlock`). During the upsampling process, feature maps from the encoder path (via skip connections) are passed through an attention block along with the feature maps from the decoder. This mechanism teaches the model to focus on the most salient features and suppress irrelevant information from the skip connections, leading to more accurate and refined segmentation masks.
+    *   **Attention-Gated Decoder**: The decoder path implements **Attention Gates** (`AttentionBlock`). 
 
     *   **Multi-Task Learning Head**: A unique feature of this network is its **dual-output design**. The model has two prediction heads that operate in parallel from the final decoder block:
         1.  `final_mask`: Predicts the primary segmentation mask of the objects (e.g., precipitates).
