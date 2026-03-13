@@ -33,8 +33,7 @@ This pipeline includes the following models:
 
     *   **Multi-Task Learning Head**: A unique feature of this network is its **dual-output design**. The model has two prediction heads that operate in parallel from the final decoder block:
         1.  `final_mask`: Predicts the primary segmentation mask of the objects (e.g., precipitates).
-        2.  `final_edge`: Predicts the boundaries or edges of these objects.
-        This multi-task approach is beneficial because the edge-detection task acts as a form of regularization, forcing the model to learn more precise boundaries, which in turn improves the quality of the main segmentation mask.
+        2.  `final_edge`: Predicts the boundaries or edges of these objects
 
     *   **Code Implementation**: The architecture is implemented in PyTorch. The `MatSegNet` class combines the ResNet-34 encoder blocks (`enc1` through `enc5`) with custom `DecoderBlock` and `AttentionBlock` modules to build the complete network. The `forward` method explicitly shows the flow of data through the encoder, attention-gated skip connections, decoder, and finally to the two output heads.
 
