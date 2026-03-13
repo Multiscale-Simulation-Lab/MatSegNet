@@ -1,5 +1,5 @@
 # Deep Learning-based Image Segmentation Pipeline
-# Special thanks to Dr. Baihua Ren for co-developing this code
+
 ## 1. Overview
 
 This project provides a complete pipeline for training and evaluating three different deep learning models (UNet, SegFormer, and MatSegNet) for an image segmentation task. The framework covers the entire workflow, from data preprocessing (image cropping and dataset splitting) to model training, prediction, post-processing, and quantitative analysis of the segmentation results.
