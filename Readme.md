@@ -4,7 +4,7 @@
 
 This project provides a complete pipeline for training and evaluating four different deep learning models (FPN, UNet, SegFormer, and MatSegNet) for an image segmentation task. The framework covers the entire workflow, from data preprocessing (image cropping and dataset splitting) to model training, prediction, post-processing, and quantitative analysis of the segmentation results.
 
-In our experiments, the MatSegNet model demonstrated superior performance, surpassing SegFormer on both `recall` and `precision` metrics.
+In our experiments, the MatSegNet model demonstrated superior performance.
 
 ## 2. Key Features
 
