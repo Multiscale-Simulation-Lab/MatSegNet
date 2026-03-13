@@ -144,14 +144,23 @@ Segmentation_Pipeline/
 ### Prerequisites
 
 numpy==1.26.4
+
 albumentations==2.0.8
+
 matplotlib==3.10.5
+
 opencv-python-headless==4.10.0.84
+
 Pillow==11.3.0
+
 PyYAML==6.0.2
+
 scikit-learn==1.4.2
+
 tqdm==4.66.5
+
 transformers==4.55.0
+
 segmentation-models-pytorch==0.3.3
 
 
