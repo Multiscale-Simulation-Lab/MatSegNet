@@ -19,7 +19,7 @@ In our experiments, the MatSegNet model demonstrated superior performance.
 This pipeline includes the following models:
 *   **FPN**: A neural network architecture that builds multi-scale feature representations by combining high-level semantic features with low-level spatial features
 
-*   **UNet**: A classic and widely-used convolutional neural network with an encoder-decoder architecture, well-suited for biomedical and materials science image segmentation.
+*   **U-Net**: A classic and widely-used convolutional neural network with an encoder-decoder architecture, well-suited for biomedical and materials science image segmentation.
 
 *   **SegFormer**: A powerful and efficient segmentation model that leverages a Transformer-based encoder to capture global context, paired with a lightweight decoder.
 
