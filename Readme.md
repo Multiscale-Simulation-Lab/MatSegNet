@@ -87,7 +87,7 @@ The results clearly indicate that **MatSegNet** achieves the best performance in
     *   Train a model: `python /scripts/train.py --model <model_name>`
     *   Run inference and post-processing: `python /scripts/visualize_results.py  --model  <model_name>`
     *   Perform analysis: `python /scripts/carbide_morphology.py  --model  <model_name>` or `python /scripts/size_aspect_ratio.py  --model  <model_name>`
-
+** <model_name> can be : 1.'Unet', 2.'Segformer', 3. 'MatSegNet', 4. 'FPN'
 ## 7. Project Structure
 
 ```
