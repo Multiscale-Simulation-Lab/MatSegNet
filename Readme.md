@@ -1,13 +1,13 @@
 # Deep Learning-based Image Segmentation Pipeline
 ## 1. Overview
 
-This project provides a complete pipeline for training and evaluating three different deep learning models (UNet, SegFormer, and MatSegNet) for an image segmentation task. The framework covers the entire workflow, from data preprocessing (image cropping and dataset splitting) to model training, prediction, post-processing, and quantitative analysis of the segmentation results.
+This project provides a complete pipeline for training and evaluating four different deep learning models (FPN, SegFormer, UNet, and MatSegNet) for an image segmentation task. The framework covers the entire workflow, from data preprocessing (image cropping and dataset splitting) to model training, prediction, post-processing, and quantitative analysis of the segmentation results and secondary precipitates.
 
-In our experiments, the MatSegNet model demonstrated superior performance, surpassing SegFormer on both `recall` and `precision` metrics.
+In our tests, the MatSegNet model demonstrated superior performance, surpassing other models on both `recall` and `precision` metrics.
 
 ## 2. Key Features
 
-*   **Multi-Model Support**: Integrates three powerful segmentation models: UNet, SegFormer, and MatSegNet.
+*   **Multi-Model Support**: Integrates four powerful segmentation models: FPN, SegFormer, UNet, and MatSegNet.
 *   **End-to-End Workflow**: Offers a complete solution from raw images to final quantitative analysis.
 *   **Automated Data Preparation**: Includes scripts for automated image cropping and splitting into training, validation, and test sets.
 *   **Advanced Post-processing**: Supports prediction on tiled images, merging them back to their original size, and creating visual comparisons with the source images.
@@ -16,6 +16,7 @@ In our experiments, the MatSegNet model demonstrated superior performance, surpa
 ## 3. Model Architectures
 
 This pipeline includes the following models:
+*   **FPN**: FPN fuses multi-scale features through top-down pathways and lateral connections, enabling robust detection and segmentation across varying object scales.
 
 *   **UNet**: A classic and widely-used convolutional neural network with an encoder-decoder architecture, well-suited for biomedical and materials science image segmentation.
 
