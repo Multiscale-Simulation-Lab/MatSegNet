@@ -115,11 +115,11 @@ Segmentation_Pipeline/
 ├── output/                  
 │   ├── checkpoints/
 │         └──best_matsegnet.pth
-│         └──best_fpn.pth
+│         └──best_FPN_efficientNetB4.pth
 │         └──best_segformer.pth
 │         └──best_unet_resnet34.pth
 │         └──matsegnet.pth
-│         └──fpn.pth
+│         └──FPN_efficientNetB4.pth
 │         └──segformer.pth
 │         └──unet_resnet34.pth
 │   └── accuracy_output/     
