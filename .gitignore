@@ -6,24 +6,39 @@
 *.bmp
 *.gif
 
+!data/
+!data/SEM_images/
+!data/SEM_images/original_N5_440_MARTENSITE/
 !data/SEM_images/original_N5_440_MARTENSITE/0.5-15000X_018.png
 !data/SEM_images/original_N5_440_MARTENSITE/0.5-15000X_019.png
+!data/SEM_images/original_N5_325_BAINITE/
 !data/SEM_images/original_N5_325_BAINITE/0.5-15000X_009.png
 !data/SEM_images/original_N5_325_BAINITE/0.43-15000X_006.png
+!data/SEM_images/original_42CrMo4_BAINITE/
 !data/SEM_images/original_42CrMo4_BAINITE/0.43-15000X_013.png
 !data/SEM_images/original_42CrMo4_BAINITE/0.45-15000X_012.png
 
+!data/SEM_images/mask_N5_440_MARTENSITE/
 !data/SEM_images/mask_N5_440_MARTENSITE/0.5-15000X_018.png
 !data/SEM_images/mask_N5_440_MARTENSITE/0.5-15000X_019.png
+
+!data/SEM_images/mask_N5_325_BAINITE/
 !data/SEM_images/mask_N5_325_BAINITE/0.5-15000X_009.png
 !data/SEM_images/mask_N5_325_BAINITE/0.43-15000X_006.png
+
+!data/SEM_images/mask_42CrMo4_BAINITE/
 !data/SEM_images/mask_42CrMo4_BAINITE/0.43-15000X_013.png
 !data/SEM_images/mask_42CrMo4_BAINITE/0.45-15000X_012.png
 
+!data/SEM_images/edge_N5_440_MARTENSITE/
 !data/SEM_images/edge_N5_440_MARTENSITE/0.5-15000X_018.png
 !data/SEM_images/edge_N5_440_MARTENSITE/0.5-15000X_019.png
+
+!data/SEM_images/edge_N5_325_BAINITE/
 !data/SEM_images/edge_N5_325_BAINITE/0.5-15000X_009.png
 !data/SEM_images/edge_N5_325_BAINITE/0.43-15000X_006.png
+
+!data/SEM_images/edge_42CrMo4_BAINITE/
 !data/SEM_images/edge_42CrMo4_BAINITE/0.43-15000X_013.png
 !data/SEM_images/edge_42CrMo4_BAINITE/0.45-15000X_012.png
 
@@ -31,5 +46,4 @@
 outputs/
 __pycache__/
 inference/
-SEM_images/
 notebooks/
