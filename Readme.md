@@ -113,7 +113,10 @@ Segmentation_Pipeline/
 │   ├──Segformer.py
 │   ├──Unet.py
 ├── output/
-│   ├── FPN_qualitative_results              
+│   ├── FPN_qualitative_results
+│   ├── MatSegNet_qualitative_results
+│   ├── Segformer_qualitative_results
+│   ├── Unet_qualitative_results
 │   ├── checkpoints/
 │         └──best_matsegnet.pth
 │         └──best_FPN_efficientNetB4.pth
