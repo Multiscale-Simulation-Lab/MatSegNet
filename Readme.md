@@ -112,7 +112,8 @@ Segmentation_Pipeline/
 │   ├──MatSegNet.py
 │   ├──Segformer.py
 │   ├──Unet.py
-├── output/                  
+├── output/
+│   ├── FPN_qualitative_results              
 │   ├── checkpoints/
 │         └──best_matsegnet.pth
 │         └──best_FPN_efficientNetB4.pth
@@ -121,8 +122,7 @@ Segmentation_Pipeline/
 │         └──matsegnet.pth
 │         └──FPN_efficientNetB4.pth
 │         └──segformer.pth
-│         └──unet_resnet34.pth
-│   └── accuracy_output/     
+│         └──unet_resnet34.pth   
 ├── src/            
 │   ├── checkpoints.py
 │   ├── load_data.py
