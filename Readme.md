@@ -77,6 +77,7 @@ The results clearly indicate that **MatSegNet** achieves the best performance in
 
 1.  **Setup Environment**
     *   Clone the repository: `git clone https://github.com/Multiscale-Simulation-Lab/MatSegNet.git`
+    *   Environment         :  Python 3.11.9 tested
     *   Install dependencies: `pip install -r requirements.txt`
     *   Install dependencies: `pip install torch==2.5.1 torchvision==0.20.1 --index-url https://download.pytorch.org/whl/cu121`
 
